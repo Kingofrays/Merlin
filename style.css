@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat:wght@700&family=Gabriela&family=Underdog&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container_audio {
+	display: flex;
+	background-image: url(images/spot_and_arlo.jpg);
+	background-size: cover;
+	padding: 30 px;
+	height: 1200px;
+	justify-content: space-between;
+}
+
+.audio_header {
+	font-family: 'Philosopher' , sans-serif;
+	font-size: 40px;
+	color: #562e02;
+	text-decoration: underline;
+	text-shadow: -3px -3px 3px #fee6b7, -5px -5px 4px #e7d780;
+	margin: 50px;
+	margin-right: 200px;
+
+}
+
+.audio_files {
+	font-family: 'Neucha', cursive;
+	font-size: 20px;
+	margin: 50px;
+	margin-right: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.audio_files ul {
+	list-style: none;
+}
+
+.audio_files li {
+	padding: 10px;
+	text-shadow: 2px 2px #fff;
+}
+
+.container_video {
+	display: flex;
+	background-image: url(images/spot_background.jpg);
+	background-size: cover;
+	padding: 10px;
+}
+
+.n321 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.container_video div {
+	margin: 20px;
+}
+
+.video_header {
+	font-family: 'Philosopher' , sans-serif;
+	font-size: 40px;
+	color: #562e02;
+	text-decoration: underline;
+	text-shadow: -3px -3px 3px #fee6b7, -5px -5px 4px #e7d780;
+}
+
+.container_about {
+	display: flex;
+	background-image: url(images/GD_poster.jpg);
+	background-size: cover;
+	padding: 0px;
+	height: 700px;
+}
+
+.film_name {
+	width: 670px;
+	height: 290px;
+	text-decoration: underline;
+	margin: 0px;
+	padding-bottom: 10px;
+}
+
+.film_about {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	width: 300px;
+	padding: 15px;
+	background-color: #855f0083;
+	font-family: 'Underdog', cursive;
+	font-size: 15px;
+	color: #d3fbff;
+	text-align: center;
+	margin: 0px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin-left: 150px;
+}
+
+nav li {
+	font-family: 'Philosopher', sans-serif;
+	color: #FFFFFF;
+	border-bottom: 4px solid #faac119f;
+	padding: 10px 20px;
+}
+
+nav li:hover {
+	text-shadow: 2px 2px 2px black, -1px -1px 1px black;
+	font-size: 26px;
+	border-bottom: 6px solid #FFBC00;
+}
+
+a {
+	font-family: 'Caveat', bold, cursive;
+	text-decoration: none;
+	font-size: 23px;
+	color: #f90;
+}
+
+hr {
+	size: 50px;
+	color: radial-gradient(ellipse farthest-corner at center, #09FF00 30%, #0008FF 100%);
+}
